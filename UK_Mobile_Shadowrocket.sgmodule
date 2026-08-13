@@ -1,0 +1,15 @@
+#!name=UK Mobile Carrier Rules
+#!desc=Vodafone UK / VOXI / CMLinkUK EE / Giffgaff / CTE routing rules
+#!author=yjhdlut
+
+[Rule]
+DOMAIN-KEYWORD,mcc234,PROXY
+DOMAIN-SUFFIX,entsrv-uk.vodafone.com,PROXY
+DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com,PROXY
+IP-CIDR,88.82.0.0/19,PROXY,no-resolve
+IP-CIDR,148.252.160.0/19,PROXY,no-resolve
+DOMAIN,vfgb.idemia.io,PROXY
+IP-CIDR,46.68.0.0/17,PROXY,no-resolve
+IP-CIDR,87.194.0.0/16,PROXY,no-resolve
+DOMAIN-SUFFIX,ct.ee.co.uk,PROXY
+IP-CIDR,31.94.0.0/16,PROXY,no-resolve
